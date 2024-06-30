@@ -3,33 +3,430 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Salah's porfolio</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Salah Eldeen's Porfolio</h1>
-    <h2>I'm a Web Developer</h2>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand main-color fs-2 fw-bolder" href="#">Fokir</a>
 
-    <hr />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <h3><a href="./public/Movie Ranking.html">Movie Ranking Project</a></h3>
-    <img
-      src="./Images/Fav movies.png"
-      alt="Picture of favorite movies website"
-      width="400"
-      height="250"
-    />
+        <div class="collapse navbar-collapse" id="navlist">
+          <ul class="list-unstyled navbar-nav ms-auto mb-2 mb-lg-0 fw-bolder">
+            <li class="nav-item fw-600">
+              <a
+                class="nav-link active main-color"
+                aria-current="page"
+                href="#Home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item fw-600">
+              <a class="nav-link text-white" href="#About">about</a>
+            </li>
+            <li class="nav-item fw-600">
+              <a class="nav-link text-white" href="#Services">Services</a>
+            </li>
+            <li class="nav-item fw-600">
+              <a class="nav-link text-white" href="#Portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item fw-600">
+              <a class="nav-link text-white" href="#Testimonial">Testimonial</a>
+            </li>
+            <li class="nav-item fw-600">
+              <a class="nav-link text-white" href="#Blog">Blog</a>
+            </li>
+            <li class="nav-item fw-600">
+              <a class="nav-link text-white" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <h3><a href="./public/Bday.html">Birthday Invite Project</a></h3>
-    <img
-      src="./Images//Bday Invite.png"
-      alt="Picture of Birthday Invite website"
-      width="400"
-      height="350"
-    />
+    <section
+      class="intil-background vh-100 d-flex text-white justify-content-center align-items-center"
+      id="Home"
+    >
+      <div
+        class="shaddow d-flex justify-content-center align-items-center h-100"
+      >
+        <div class="HomeContent">
+          <h3 class="text-white fs-1 text-center">Hello, I'm</h3>
+          <h1 class="main-color my-4 display-1">Salah Eldeen</h1>
+        </div>
+      </div>
+    </section>
 
-    <hr />
+    <section class="container py-5 bg-white" id="About">
+      <div class="row align-items-center">
+        <div class="col-lg-4 col-md-6">
+          <div class="img-box position-relative">
+            <img class="rounded-4" src="images/profile.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-6 ps-lg-4 pt-5 pt-md-0">
+          <div class="about-content pb-4 mb-4">
+            <h2 class="fs-1 ps-3 position-relative fw-bold text-dark">
+              HELLO,
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div class="dotted-line"></div>
+            <div class="list">
+              <ul class="gx-0 gx-lg-5">
+                <li class="text-dark">
+                  <strong>Name:</strong> Salah Eldeen Tarek
+                </li>
+                <li class="text-dark"><strong>Age:</strong> 19 Year</li>
+                <li class="text-dark"><strong>Freelance:</strong> Available</li>
+              </ul>
+              <ul class="gx-0 gx-lg-5">
+                <li class="text-dark">
+                  <strong>Job Title:</strong> Web Developer
+                </li>
+                <li class="text-dark">
+                  <strong>Location:</strong> Cairo, Egypt
+                </li>
+                <li class="text-dark">
+                  <strong>E-mail:</strong>
+                  <a href="Salaheldeentarek@outlook.com"
+                    >Salaheldeentarek@outlook.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <button class="AboutButton mx-2">Download CV</button>
+            <button class="AboutButton mx-2">Hire me</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <a href="./public/about.html">About Me</a>
-    <a href="./public/contact.html">Contact Me</a>
+    <section class="gray-bg text-center py-5" id="Services">
+      <div class="container">
+        <h2 class="Heading text-dark">Our Services</h2>
+
+        <div class="threelines">
+          <div class="short-line"></div>
+          <div class="long-line"></div>
+          <div class="short-line"></div>
+        </div>
+
+        <div class="row gy-1">
+          <div class="ServicesHover col-md-6 col-lg-3">
+            <div class="content p-3">
+              <h3 class="fs-1 my-3 text-dark">UI/UX DESIGN</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ratione adipisci mollitia quis necstatibus.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="content p-3">
+              <h3 class="fs-1 my-3 text-dark">APP DEVELOPMENT</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ratione adipisci mollitia quis necstatibus.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="content p-3">
+              <h3 class="fs-1 my-3 text-dark">PRODUCT DESIGN</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ratione adipisci mollitia quis necstatibus.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="content p-3">
+              <h3 class="fs-1 my-3 text-dark">UI/UX DESIGN</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ratione adipisci mollitia quis necstatibus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container bg-white py-5" id="Portfolio">
+      <h2 class="Heading">Our Portfolio</h2>
+
+      <div class="threelines">
+        <div class="short-line"></div>
+        <div class="long-line"></div>
+        <div class="short-line"></div>
+      </div>
+
+      <ul
+        class="lists list-unstyled d-flex justify-content-center align-items-center mb-5"
+      >
+        <li class="px-2 main-color">ALL</li>
+        <li class="px-2">GRAPHIC</li>
+        <li class="px-2">WEB DESIGN</li>
+        <li class="px-2">BRANDING</li>
+      </ul>
+
+      <div class="row gy-3" id="PortContainer">
+        <div
+          class="mix category-a col-md-6 col-lg-4 slider-item"
+          data-order="1"
+        >
+          <img src="images/1.jpg" />
+        </div>
+        <div
+          class="mix category-a col-md-6 col-lg-4 slider-item"
+          data-order="2"
+        >
+          <img src="images/2.jpg" />
+        </div>
+        <div
+          class="mix category-b col-md-6 col-lg-4 slider-item"
+          data-order="3"
+        >
+          <img src="images/3.jpg" />
+        </div>
+        <div
+          class="mix category-b col-md-6 col-lg-4 slider-item"
+          data-order="4"
+        >
+          <img src="images/4.jpg" />
+        </div>
+        <div
+          class="mix category-c col-md-6 col-lg-4 slider-item"
+          data-order="5"
+        >
+          <img src="images/5.jpg" />
+        </div>
+        <div
+          class="mix category-c col-md-6 col-lg-4 slider-item"
+          data-order="6"
+        >
+          <img src="images/6.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="text-center py-5 gray-bg" id="IconSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div>
+              <i class="fa-solid fa-users fa-3x mb-3"></i>
+              <h3 class="text-dark">34</h3>
+              <p>Team members</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div>
+              <i class="fa-solid fa-folder-open fa-3x mb-3"></i>
+              <h3 class="text-dark">62</h3>
+              <p>Complete Projects</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div>
+              <i class="fa-solid fa-cloud-arrow-down fa-3x mb-3"></i>
+              <h3 class="text-dark">324</h3>
+              <p>Files Downloaded</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div>
+              <i class="fa-solid fa-code fa-3x mb-3"></i>
+              <h3 class="text-dark">216</h3>
+              <p>Lines Of Code</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white py-5" id="Testimonial">
+      <h2 class="Heading">Client's Feedback</h2>
+
+      <div class="threelines">
+        <div class="short-line"></div>
+        <div class="long-line"></div>
+        <div class="short-line"></div>
+      </div>
+
+      <div class="container">
+        <p class="justify-content-center align-items-center">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </section>
+
+    <section class="py-5 gray-bg" id="Blog">
+      <div class="container">
+        <h2 class="Heading">Our Blog</h2>
+
+        <div class="threelines">
+          <div class="short-line"></div>
+          <div class="long-line"></div>
+          <div class="short-line"></div>
+        </div>
+
+        <div class="row gy-3">
+          <div class="col-md-4 col-sm-6">
+            <div class="bg-white blog-box shadow">
+              <div class="frame">
+                <img
+                  class="w-100 responsive-iframe"
+                  src="images/Woman.jpg"
+                />
+              </div>
+              <div class="p-3">
+                <p class="mt-3">23 November, 2015</p>
+                <h3 class="my-3">
+                  <a href="#" class="main-color text-decoration-none fw-bold"
+                    >Web Design Blog Post</a
+                  >
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                  molestiae.
+                </p>
+                <a href="#" class="main-color text-decoration-none"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="bg-white blog-box shadow">
+              <div class="frame">
+                <iframe
+                  class="responsive-iframe w-100"
+                  src="https://www.youtube.com/embed/uVju5--RqtY"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="p-3">
+                <p class="mt-3">20 April, 2018</p>
+                <h3 class="my-3">
+                  <a href="#" class="main-color text-decoration-none fw-bold"
+                    >Development Blog Post</a
+                  >
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                  molestiae.
+                </p>
+                <a href="#" class="main-color text-decoration-none"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="bg-white blog-box shadow">
+              <div class="frame">
+                <img
+                  class="w-100 responsive-iframe"
+                  src="images/Man.jpg"
+                />
+              </div>
+              <div class="p-3">
+                <p class="mt-3">17 May, 2017</p>
+                <h3 class="my-3">
+                  <a href="#" class="main-color text-decoration-none fw-bold"
+                    >Full Width Blog Post</a
+                  >
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                  molestiae.
+                </p>
+                <a href="#" class="main-color text-decoration-none"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-white" id="Contact">
+      <div class="container">
+      <h2 class="Heading">Contact Us</h2>
+
+      <div class="threelines">
+        <div class="short-line"></div>
+        <div class="long-line"></div>
+        <div class="short-line"></div>
+      </div>
+
+            <div class="row gy-3">
+              <div class="col-md-6">
+                  <input class="form-control" type="text" name="name" placeholder="Name">
+              </div>
+              <div class="col-md-6">
+                  <input class="form-control"  type="email" name="email" placeholder="Email">
+              </div>
+              <div class="col-12">
+                  <input class="form-control" type="text" name="subject" placeholder="subject">
+              </div>
+              <div class="col-12">
+                  <textarea class="form-control" placeholder="Message for me" name="message" id="" cols="30" rows="10"></textarea>
+              </div>
+          </div>
+          <button class="main-btn mt-3" type="submit">SEND MESSAGE</button>
+      </div>
+    </div>
+    </section>
+
+    <footer class="py-5 bg-dark text-center" id="Footer">
+      <div class="mb-3">
+        <img src="images/footer.png"/>
+      </div>
+      <p>Copy Right 2022 © By <a href="#" class="main-color text-decoration-none">Salah Tarek</a> All Rights Reserved</p> 
+  </footer>
   </body>
 </html>
